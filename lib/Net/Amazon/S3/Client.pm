@@ -100,7 +100,6 @@ sub _send_request {
                 confess status_message($code);
             }
         } else {
-            warn "Content: $content\n";
             confess status_message($code);
         }
     }
